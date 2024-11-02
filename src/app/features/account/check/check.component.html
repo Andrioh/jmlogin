@@ -1,1 +1,33 @@
-<p>check works!</p>
+<section class="flex flex-row h-screen w-full flex-col flex-1 max-w-full h-full items-center justify-center">
+
+    <div class="flex flex-col items-center justify-center border-2 border-gray-300 p-[48px]">
+        <div hlmCardHeader>
+            <h3 hlmCardTitle class="font-bold text-2xl">Check your email</h3>
+            <p hlmCardDescription class="text-[#64748B] mt-1 mb-3">We&rsquo;ve sent your verification code to <br>
+                <b>email&#64;email.com</b>
+            </p>
+        </div>
+
+        <div hlmCardContent class="flex flex-col max-w-full">
+
+            <label class="block p-[24px] w-full max-w-md" hlmLabel>
+                Verification code
+                <input class="mt-1.5 w-full border-2 rounded-md p-1" placeholder="XXX-XXX" hlmInput />
+            </label>
+
+        </div>
+
+        <div hlmCardFooter class="flex flex-col max-w-md">
+            <label class="block mb-4 w-full">
+                <button hlmBtn class="bg-[#0F172A] text-white w-full mt-3 rounded-md p-2 max-w-md">Confirm</button>
+                <button hlmBtn class="bg-[#E2E8F0] text-[#64748B] w-full mt-3 rounded-md p-2 max-w-md">Send the code
+                    again (30)</button>
+            </label>
+
+            <label class="w-full">
+                <p>Didn&rsquo;t receive? Check out your span folder.</p>
+            </label>
+        </div>
+    </div>
+
+</section>

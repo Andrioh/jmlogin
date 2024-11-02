@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { BluePanelComponent } from '../../Component/blue-panel/blue-panel.component';
 
 @Component({
-  selector: 'app-check',
+  selector: 'app-sing',
   standalone: true,
-  imports: [],
+  imports: [BluePanelComponent],
   templateUrl: './check.component.html',
   styleUrl: './check.component.css'
 })
