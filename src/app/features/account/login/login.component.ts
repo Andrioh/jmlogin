@@ -24,9 +24,9 @@ import { HlmButtonDirective } from '@spartan-ng/ui-button-helm';
     HlmCardModule,
     HlmCardTitleDirective,
     HlmButtonDirective],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  templateUrl: './login.component.html',
+  styleUrl: './login.component.css'
 })
-export class HomeComponent {
+export class LoginComponent {
 
 }
